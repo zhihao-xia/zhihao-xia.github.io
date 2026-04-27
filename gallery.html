@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Photo gallery for Zhihao Xia's academic homepage, including research photos, robot prototypes, and academic activities."
+    />
+    <title>Photo Gallery | Zhihao Xia</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Noto+Serif+SC:wght@500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="index.html" aria-label="Zhihao Xia home">
+        <span class="brand-mark">ZX</span>
+        <span class="brand-text">Zhihao Xia</span>
+      </a>
+
+      <nav class="site-nav" aria-label="Primary navigation">
+        <a href="index.html">HomePage(首页)</a>
+        <a href="research.html">Research(科研)</a>
+        <a href="publications.html">Publications(论文集)</a>
+        <a href="gallery.html" aria-current="page">Photo Gallery(图片库)</a>
+        <a href="about.html">About Me(关于我)</a>
+      </nav>
+    </header>
+
+    <main id="top">
+      <section class="page-hero section-band">
+        <p class="eyebrow">Photo Gallery</p>
+        <h1>Photo Gallery</h1>
+        <p class="hero-summary">
+          Selected academic and research materials, including portrait, awards,
+          and robot demonstration media.
+        </p>
+      </section>
+
+      <section class="section">
+        <div class="gallery-grid">
+          <figure class="gallery-item gallery-item-portrait">
+            <img src="assets/profile-photo.jpg" alt="Portrait of Zhihao Xia" width="640" height="896" loading="lazy" />
+            <figcaption>Portrait</figcaption>
+          </figure>
+          <figure class="gallery-item gallery-item-portrait">
+            <img src="assets/gallery/award-trophy.jpg" alt="Award trophy" width="720" height="960" loading="lazy" />
+            <figcaption>Award trophy</figcaption>
+          </figure>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="section-heading">
+          <p class="eyebrow">Video</p>
+          <h2>Humanoid Robot Demonstration</h2>
+        </div>
+        <div class="video-frame">
+          <video controls preload="metadata" src="assets/media/humanoid-robot-1.mp4">
+            Your browser does not support the video tag.
+          </video>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>© <span id="year"></span> Zhihao Xia. Built for GitHub Pages.</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>

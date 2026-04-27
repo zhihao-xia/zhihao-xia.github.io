@@ -1,0 +1,9 @@
+<svg width="480" height="480" viewBox="0 0 480 480" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Profile placeholder</title>
+  <desc id="desc">A simple academic profile placeholder with the initials ZX.</desc>
+  <rect width="480" height="480" fill="#EAF1EE"/>
+  <rect x="48" y="48" width="384" height="384" rx="24" fill="#FBFAF7" stroke="#D9DED8" stroke-width="3"/>
+  <path d="M116 304L250 176H129V126H332V168L197 296H338V346H116V304Z" fill="#172033"/>
+  <path d="M145 376H335" stroke="#0F766E" stroke-width="14" stroke-linecap="round"/>
+  <path d="M162 394H318" stroke="#7F1D1D" stroke-width="8" stroke-linecap="round"/>
+</svg>
