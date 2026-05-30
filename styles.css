@@ -671,6 +671,11 @@ h3 {
   color: var(--muted);
 }
 
+.project-description {
+  max-width: 880px;
+  color: var(--muted);
+}
+
 .project-meta-list {
   display: flex;
   flex-wrap: wrap;
