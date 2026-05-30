@@ -11,7 +11,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Noto+Serif+SC:wght@500;700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Noto+Serif+SC:wght@500;700&display=swap"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="styles.css" />
@@ -33,54 +33,52 @@
     </header>
 
     <main id="top">
-      <section class="profile-intro section-band">
-        <div class="profile-intro-content">
-          <h1>Zhihao Xia <span>(夏志豪)</span></h1>
-          <p class="profile-title">Ph.D. Student in Computer Science and Technology</p>
+      <section class="home-hero section-band">
+        <div class="home-intro">
+          <p class="eyebrow">Fudan University · Robotics and Mechanisms</p>
+          <h1>Zhihao Xia <span>夏志豪</span></h1>
+          <p class="profile-title">
+            Ph.D. Student in Computer Science and Technology
+          </p>
 
           <div class="profile-lines">
             <p>
               <strong>Affiliation:</strong>
-              Institute of AI and Robotics,
-              Academy for Engineering and Technology,
-              <a href="https://www.fudan.edu.cn/">Fudan University</a> (复旦大学)
+              Institute of AI and Robotics, Academy for Engineering and
+              Technology,
+              <a href="https://www.fudan.edu.cn/">Fudan University</a>
+              (复旦大学)
             </p>
-            <p class="profile-links">
-              <a href="https://scholar.google.com/citations?user=0CtcaZQAAAAJ&amp;hl=zh-CN">Google Scholar</a>,
-              <a href="https://github.com/zhihao-xia">GitHub</a>.
+            <p>
+              <strong>Advisor:</strong>
+              <a href="https://www.polyu.edu.hk/me/people/academic-teaching-staff/zhang-dan-prof/">Prof. Dan Zhang</a>
             </p>
           </div>
 
-          <p class="welcome-line">Welcome to Zhihao Xia's Academic Website!</p>
-
-          <div class="intro-copy">
+          <div class="intro-copy intro-copy-lead">
             <p>
-              Zhihao Xia is a Ph.D. student in Computer Science and Technology
-              at Fudan University, advised by
-              <a href="https://www.polyu.edu.hk/me/people/academic-teaching-staff/zhang-dan-prof/">Prof. Dan Zhang</a>.
-              Zhihao Xia's research interests include generalized parallel
-              mechanisms, generative design for robotic mechanisms, embodied
-              intelligence, and vision-language-action systems for intelligent
-              manipulation.
+              Welcome to Zhihao Xia's academic website. Zhihao Xia works on
+              generalized parallel mechanisms, learning-assisted mechanism
+              synthesis, generative robotic morphology, and embodied robotic
+              systems.
             </p>
             <p>
-              Zhihao Xia's research aims to connect mechanism design with
-              intelligent robotic decision-making. Zhihao Xia's recent work
-              studies the synthesis, analysis, and learning-assisted design of
-              generalized parallel mechanisms, with applications in humanoid
-              robots, adaptive robotic systems, and next-generation embodied
-              agents.
+              Zhihao Xia's research aims to connect classical mechanism design
+              with trainable computational methods, enabling robotic structures
+              that are easier to synthesize, analyze, and deploy in intelligent
+              physical systems.
             </p>
           </div>
 
-          <p class="profile-contact">
-            <strong>E-mail:</strong>
-            <a href="mailto:23110860019@m.fudan.edu.cn">23110860019@m.fudan.edu.cn</a>
-          </p>
-          <p class="last-updated">Last updated: May 30, 2026 (CST, UTC+8)</p>
+          <div class="quick-links" aria-label="Profile links">
+            <a class="button button-primary" href="publications.html">Publications</a>
+            <a class="button" href="research.html">Research</a>
+            <a class="button" href="https://scholar.google.com/citations?user=0CtcaZQAAAAJ&amp;hl=zh-CN">Google Scholar</a>
+            <a class="button" href="mailto:23110860019@m.fudan.edu.cn">Email</a>
+          </div>
         </div>
 
-        <aside class="profile-panel profile-panel-compact" aria-label="Profile portrait">
+        <aside class="profile-card" aria-label="Profile summary">
           <img
             class="profile-photo"
             src="assets/profile-photo.jpg"
@@ -88,82 +86,192 @@
             width="640"
             height="896"
           />
+          <div class="profile-card-body">
+            <p class="profile-card-name">Zhihao Xia</p>
+            <p class="profile-card-meta">
+              Ph.D. student, Fudan University<br />
+              Mechanism design · Robotics · Embodied intelligence
+            </p>
+            <dl class="profile-facts">
+              <div>
+                <dt>Since</dt>
+                <dd>2023</dd>
+              </div>
+              <div>
+                <dt>Focus</dt>
+                <dd>GPMs</dd>
+              </div>
+              <div>
+                <dt>Journal</dt>
+                <dd>MMT</dd>
+              </div>
+            </dl>
+          </div>
         </aside>
       </section>
 
-      <section id="news" class="section news-section">
-        <div class="section-heading">
-          <h2><span aria-hidden="true">🔥</span> News</h2>
+      <section class="section section-muted">
+        <div class="section-heading section-heading-row">
+          <div>
+            <p class="eyebrow">Research Focus</p>
+            <h2>What Zhihao Xia Studies</h2>
+          </div>
+          <a class="text-link" href="research.html">View research projects</a>
         </div>
-        <ul class="news-list">
-          <li class="news-item">
-            <time datetime="2026-05">2026.05:</time>
-            <span class="news-emoji" aria-hidden="true">📣</span>
+
+        <div class="focus-grid">
+          <article class="focus-card">
+            <p class="focus-index">01</p>
+            <h3>Learning-Assisted Mechanism Synthesis</h3>
             <p>
-              Zhihao Xia's <em>Mechanism and Machine Theory</em> paper
-              <a href="https://mp.weixin.qq.com/s/vEdvu4lonHM1J1p--TCXQQ?scene=1&amp;click_id=1">Mapping Mechanical Synthesis to a Trainable Task</a>
-              was featured by the Fudan University WeChat account.
+              Representing mechanical synthesis as a trainable task for
+              generalized parallel mechanisms and robotic mechanism design.
             </p>
-          </li>
-          <li class="news-item">
-            <time datetime="2026-03">2026.03:</time>
-            <span class="news-emoji" aria-hidden="true">🎉</span>
+          </article>
+          <article class="focus-card">
+            <p class="focus-index">02</p>
+            <h3>Generalized Parallel Mechanisms</h3>
             <p>
-              Zhihao Xia's paper on mapping mechanical synthesis to a
-              trainable task was published in
-              <em>Mechanism and Machine Theory</em>.
+              Studying coupling, decoupling, motion transmission, topology, and
+              performance analysis for parallel robotic mechanisms.
             </p>
-          </li>
-          <li class="news-item">
-            <time datetime="2025-12">2025.12:</time>
-            <span class="news-emoji" aria-hidden="true">🎉</span>
+          </article>
+          <article class="focus-card">
+            <p class="focus-index">03</p>
+            <h3>Embodied Robotic Systems</h3>
             <p>
-              Zhihao Xia's review on generalized parallel mechanisms was
-              published in <em>Mechanism and Machine Theory</em>.
+              Connecting robotic morphology with humanoid robots,
+              vision-language-action models, and intelligent manipulation.
             </p>
-          </li>
-          <li class="news-item">
-            <time datetime="2025-08">2025.08:</time>
-            <span class="news-emoji" aria-hidden="true">🎉</span>
-            <p>
-              Zhihao Xia's paper on decoupled generalized parallel mechanisms
-              based on motion transmission was published in
-              <em>Mechanism and Machine Theory</em>.
-            </p>
-          </li>
-          <li class="news-item">
-            <time datetime="2025-12">2025.12:</time>
-            <span class="news-emoji" aria-hidden="true">🏆</span>
-            <p>
-              Zhihao Xia was awarded the National Scholarship for doctoral
-              students
-              (<a href="assets/gallery/national-scholarship-certificate.jpg">certificate</a>).
-            </p>
-          </li>
-          <li class="news-item">
-            <time datetime="2024-07">2024.07:</time>
-            <span class="news-emoji" aria-hidden="true">🤖</span>
-            <p>
-              Zhihao Xia participated in the Guanghua-1 humanoid robot project,
-              which was presented at the 2024 World Artificial Intelligence
-              Conference and covered by
-              <a href="https://news.fudan.edu.cn/2024/0704/c31a141600/page.htm">Fudan News</a>.
-            </p>
-          </li>
-          <li class="news-item">
-            <time datetime="2023-09">2023.09:</time>
-            <span class="news-emoji" aria-hidden="true">🎓</span>
-            <p>
-              Zhihao Xia started Ph.D. study in Computer Science and Technology
-              at Fudan University.
-            </p>
-          </li>
-        </ul>
+          </article>
+        </div>
+      </section>
+
+      <section class="section home-dashboard">
+        <div class="home-main-column">
+          <div class="section-heading section-heading-row">
+            <div>
+              <p class="eyebrow">Updates</p>
+              <h2><span aria-hidden="true">🔥</span> News</h2>
+            </div>
+          </div>
+
+          <ul class="news-list">
+            <li class="news-item">
+              <time datetime="2026-05">2026.05:</time>
+              <span class="news-emoji" aria-hidden="true">📣</span>
+              <p>
+                Zhihao Xia's <em>Mechanism and Machine Theory</em> paper
+                <a href="https://mp.weixin.qq.com/s/vEdvu4lonHM1J1p--TCXQQ?scene=1&amp;click_id=1">Mapping Mechanical Synthesis to a Trainable Task</a>
+                was featured by Fudan University.
+              </p>
+            </li>
+            <li class="news-item">
+              <time datetime="2026-03">2026.03:</time>
+              <span class="news-emoji" aria-hidden="true">🎉</span>
+              <p>
+                Zhihao Xia's paper on mapping mechanical synthesis to a
+                trainable task was published in
+                <em>Mechanism and Machine Theory</em>.
+              </p>
+            </li>
+            <li class="news-item">
+              <time datetime="2025-12">2025.12:</time>
+              <span class="news-emoji" aria-hidden="true">🏆</span>
+              <p>
+                Zhihao Xia was awarded the National Scholarship for doctoral
+                students
+                (<a href="assets/gallery/national-scholarship-certificate.jpg">certificate</a>).
+              </p>
+            </li>
+            <li class="news-item">
+              <time datetime="2025-12">2025.12:</time>
+              <span class="news-emoji" aria-hidden="true">🎉</span>
+              <p>
+                Zhihao Xia's review on generalized parallel mechanisms was
+                published in <em>Mechanism and Machine Theory</em>.
+              </p>
+            </li>
+            <li class="news-item">
+              <time datetime="2025-08">2025.08:</time>
+              <span class="news-emoji" aria-hidden="true">🎉</span>
+              <p>
+                Zhihao Xia's paper on decoupled generalized parallel
+                mechanisms based on motion transmission was published in
+                <em>Mechanism and Machine Theory</em>.
+              </p>
+            </li>
+            <li class="news-item">
+              <time datetime="2024-07">2024.07:</time>
+              <span class="news-emoji" aria-hidden="true">🤖</span>
+              <p>
+                Zhihao Xia participated in the Guanghua-1 humanoid robot
+                project, which was presented at the 2024 World Artificial
+                Intelligence Conference and covered by
+                <a href="https://news.fudan.edu.cn/2024/0704/c31a141600/page.htm">Fudan News</a>.
+              </p>
+            </li>
+            <li class="news-item">
+              <time datetime="2023-09">2023.09:</time>
+              <span class="news-emoji" aria-hidden="true">🎓</span>
+              <p>
+                Zhihao Xia started Ph.D. study in Computer Science and
+                Technology at Fudan University.
+              </p>
+            </li>
+          </ul>
+        </div>
+
+        <aside class="home-side-column">
+          <div class="section-heading">
+            <p class="eyebrow">Selected Work</p>
+            <h2>Recent Publications</h2>
+          </div>
+
+          <div class="compact-publication-list">
+            <article class="compact-publication">
+              <p class="publication-year">2026</p>
+              <h3>
+                Mapping Mechanical Synthesis to a Trainable Task: A Neural
+                Network Approach for Generalized Parallel Mechanisms
+              </h3>
+              <p>
+                <strong>Zhihao Xia</strong>, X. Lao, Chunxu Tian, and Dan
+                Zhang. <em>Mechanism and Machine Theory</em>.
+              </p>
+            </article>
+            <article class="compact-publication">
+              <p class="publication-year">2025</p>
+              <h3>
+                Advances in Generalized Parallel Mechanisms: Coupling,
+                Configurable, and Articulated Designs
+              </h3>
+              <p>
+                <strong>Zhihao Xia</strong>, Yongheng Xing, Chunxu Tian, and
+                Dan Zhang. <em>Mechanism and Machine Theory</em>.
+              </p>
+            </article>
+            <article class="compact-publication">
+              <p class="publication-year">2025</p>
+              <h3>
+                The Novel Synthesis Method of Decoupled Generalized Parallel
+                Mechanisms Based on Motion Transmission
+              </h3>
+              <p>
+                <strong>Zhihao Xia</strong>, Chunxu Tian, Yongheng Xing, Jian
+                Gu, Luting Li, and Dan Zhang. <em>Mechanism and Machine
+                Theory</em>.
+              </p>
+            </article>
+          </div>
+
+          <a class="text-link side-link" href="publications.html">View full publication list</a>
+        </aside>
       </section>
     </main>
 
     <footer class="site-footer">
-      <p>© <span id="year"></span> Zhihao Xia. Built for GitHub Pages.</p>
+      <p>© <span id="year"></span> Zhihao Xia. Last updated: May 30, 2026.</p>
     </footer>
 
     <script src="script.js"></script>
