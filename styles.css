@@ -779,6 +779,13 @@ h3 {
   background: #f5f1ea;
 }
 
+.gallery-item-document-portrait img {
+  aspect-ratio: 1055 / 1491;
+  object-fit: contain;
+  object-position: center center;
+  background: #f5f1ea;
+}
+
 .gallery-item figcaption {
   padding: 12px 14px;
   color: var(--muted);
