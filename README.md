@@ -2,6 +2,8 @@
 
 This is a lightweight static academic homepage for GitHub Pages.
 
+Website: https://zhihao-xia.github.io/
+
 ## Files
 
 - `index.html`: page content and structure
