@@ -514,6 +514,42 @@ h3 {
   margin-top: 22px;
 }
 
+.service-panel {
+  margin-top: 36px;
+  padding-top: 26px;
+  border-top: 1px solid var(--line);
+}
+
+.service-panel h2 {
+  margin-bottom: 12px;
+  font-size: 1.25rem;
+}
+
+.service-list {
+  display: grid;
+  gap: 10px;
+  margin: 0;
+  padding: 0;
+  color: var(--muted);
+  list-style: none;
+}
+
+.service-list li {
+  position: relative;
+  padding-left: 18px;
+}
+
+.service-list li::before {
+  position: absolute;
+  top: 0.72em;
+  left: 0;
+  width: 6px;
+  height: 6px;
+  background: var(--wine);
+  border-radius: 50%;
+  content: "";
+}
+
 .about-grid {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
