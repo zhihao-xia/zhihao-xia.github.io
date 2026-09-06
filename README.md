@@ -12,7 +12,9 @@ Website: https://zhihao-xia.github.io/
 - `gallery.html`: photo gallery page
 - `about.html`: profile, education, honors, service, skills, and contact
 - `styles.css`: responsive visual design
-- `script.js`: small footer year helper
+- `script.js`: publication search, type filters, and footer year
+- `assets/publications.json`: bibliography and dated Scopus statistics
+- `scripts/build-publications.mjs`: renders the bibliography and recent work into static HTML
 - `assets/profile-photo.jpg`: public, compressed portrait used on the homepage
 - `assets/profile-placeholder.svg`: fallback portrait placeholder
 - `assets/gallery/`: publishable gallery images
@@ -33,6 +35,14 @@ If uploading through the GitHub web UI instead of Git, do not upload
 `补充材料(无需上传)/`, `assets/research-temp/`, or `.history/`.
 
 ## Personalize
+
+Edit `assets/publications.json`, then run `node scripts/build-publications.mjs`
+to update the publication list, recent work, and Scopus snapshot together.
+Commit both the data and generated HTML. All publications remain readable
+without JavaScript; search and filters are progressive enhancements.
+Keep the original author order. Use `accepted` only after acceptance, and
+merge a preprint into its published record when a journal version appears.
+Scopus numbers are a dated snapshot, not a live counter.
 
 - Keep the public contact section limited to information you are comfortable publishing.
 - Keep `News` concise and date each update clearly.

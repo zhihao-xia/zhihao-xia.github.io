@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="zh-CN">
+<html lang="en">
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -24,28 +24,29 @@
       </a>
 
       <nav class="site-nav" aria-label="Primary navigation">
-        <a href="index.html" aria-current="page">HomePage(首页)</a>
-        <a href="research.html">Research(科研)</a>
-        <a href="publications.html">Publications(论文集)</a>
-        <a href="gallery.html">Photo Gallery(图片库)</a>
-        <a href="about.html">About Me(关于我)</a>
+        <a href="index.html" aria-current="page">Home</a>
+        <a href="research.html">Research</a>
+        <a href="publications.html">Publications</a>
+        <a href="gallery.html">Gallery</a>
+        <a href="about.html">About</a>
       </nav>
     </header>
 
     <main id="top">
       <section class="home-hero section-band">
         <div class="home-intro">
-          <p class="eyebrow">The Hong Kong Polytechnic University · AI and Intelligent Robotics</p>
-          <h1>Zhihao Xia <span>夏志豪</span></h1>
+          <div class="profile-heading">
+          <p class="eyebrow">The Hong Kong Polytechnic University</p>
+          <h1>Zhihao Xia <span lang="zh-CN">夏志豪</span></h1>
           <p class="profile-title">
             Postdoctoral Fellow in Mechanical Engineering
           </p>
+          </div>
 
           <div class="profile-lines">
             <p>
               <strong>Affiliation:</strong>
-              <a href="https://www.polyu.edu.hk/me/">Department of Mechanical Engineering</a>,
-              The Hong Kong Polytechnic University
+              <a href="https://www.polyu.edu.hk/me/">Department of Mechanical Engineering</a>
             </p>
             <p>
               <strong>Supervisor:</strong>
@@ -55,24 +56,24 @@
 
           <div class="intro-copy intro-copy-lead">
             <p>
-              Welcome to Zhihao Xia's academic website. Zhihao Xia is a
-              Postdoctoral Fellow in the Department of Mechanical Engineering
-              at The Hong Kong Polytechnic University.
+              Zhihao Xia works at the intersection of AI for Science and
+              robotics. Zhihao Xia received a Ph.D. in Computer Science and
+              Technology from Fudan University in June 2026.
             </p>
             <p>
-              Zhihao Xia's research focuses on AI for Science, including AI
-              agents for scientific research, large language model post-training,
-              and embodied intelligence for intelligent robotic systems.
+              Current research spans scientific AI agents, large language model
+              post-training, and embodied intelligence, building on work in
+              generalized parallel mechanisms and learning-based mechanism synthesis.
             </p>
           </div>
 
           <div class="quick-links" aria-label="Profile links">
-            <a class="button button-primary" href="publications.html">Publications</a>
-            <a class="button" href="research.html">Research</a>
-            <a class="button" href="assets/cv/Zhihao_Xia_CV.pdf">CV (PDF)</a>
-            <a class="button" href="https://scholar.google.com/citations?user=0CtcaZQAAAAJ&amp;hl=zh-CN">Google Scholar</a>
-            <a class="button" href="mailto:zhihao.xia@polyu.edu.hk">Email</a>
+            <a href="assets/cv/Zhihao_Xia_CV.pdf">CV (PDF)</a>
+            <a href="https://scholar.google.com/citations?user=0CtcaZQAAAAJ&amp;hl=zh-CN">Google Scholar</a>
+            <a href="https://www.scopus.com/authid/detail.uri?authorId=57384968200">Scopus</a>
+            <a href="https://github.com/zhihao-xia">GitHub</a>
           </div>
+          <p class="profile-contact"><a href="mailto:zhihao.xia@polyu.edu.hk">zhihao.xia@polyu.edu.hk</a></p>
         </div>
 
         <aside class="profile-card" aria-label="Profile summary">
@@ -83,59 +84,14 @@
             width="640"
             height="896"
           />
-          <div class="profile-card-body">
-            <p class="profile-card-name">Zhihao Xia</p>
-            <p class="profile-card-meta">
-              Postdoctoral Fellow, PolyU<br />
-              AI for Science · AI agents · LLM post-training · Embodied intelligence
-            </p>
-          </div>
         </aside>
-      </section>
-
-      <section class="section section-muted">
-        <div class="section-heading section-heading-row">
-          <div>
-            <p class="eyebrow">Research Focus</p>
-            <h2>What Zhihao Xia Studies</h2>
-          </div>
-          <a class="text-link" href="research.html">View research projects</a>
-        </div>
-
-        <div class="focus-grid">
-          <article class="focus-card">
-            <p class="focus-index">01</p>
-            <h3>AI for Science and Scientific Agents</h3>
-            <p>
-              Developing research agents that support scientific reasoning,
-              knowledge workflows, and domain-specific problem solving.
-            </p>
-          </article>
-          <article class="focus-card">
-            <p class="focus-index">02</p>
-            <h3>Large Language Model Post-Training</h3>
-            <p>
-              Post-training and adapting large language models for specialized
-              scientific and engineering domains.
-            </p>
-          </article>
-          <article class="focus-card">
-            <p class="focus-index">03</p>
-            <h3>Embodied Intelligence and Robotics</h3>
-            <p>
-              Connecting intelligent models with robotic systems for embodied
-              reasoning, manipulation, and autonomous interaction.
-            </p>
-          </article>
-        </div>
       </section>
 
       <section class="section home-dashboard">
         <div class="home-main-column">
           <div class="section-heading section-heading-row">
             <div>
-              <p class="eyebrow">Updates</p>
-              <h2><span aria-hidden="true">🔥</span> News</h2>
+              <h2>News</h2>
             </div>
           </div>
 
@@ -198,6 +154,10 @@
                 (<a href="assets/gallery/shanghai-outstanding-graduate-certificate.jpg">certificate</a>).
               </p>
             </li>
+          </ul>
+          <details class="news-archive">
+            <summary>Earlier news</summary>
+            <ul class="news-list">
             <li class="news-item">
               <time datetime="2026-03">2026.03:</time>
               <span class="news-emoji" aria-hidden="true">🎉</span>
@@ -251,53 +211,37 @@
                 Technology at Fudan University.
               </p>
             </li>
-          </ul>
+            </ul>
+          </details>
         </div>
 
         <aside class="home-side-column">
-          <div class="section-heading">
-            <p class="eyebrow">Selected Work</p>
-            <h2>Recent Publications</h2>
-          </div>
-
-          <div class="compact-publication-list">
-            <article class="compact-publication">
-              <p class="publication-year">2026</p>
-              <h3>
-                Mapping Mechanical Synthesis to a Trainable Task: A Neural
-                Network Approach for Generalized Parallel Mechanisms
-              </h3>
-              <p>
-                <strong>Zhihao Xia</strong>, Xinhua Lao, Chunxu Tian, and Dan
-                Zhang. <em>Mechanism and Machine Theory</em>.
-              </p>
-            </article>
-            <article class="compact-publication">
-              <p class="publication-year">2025</p>
-              <h3>
-                Advances in Generalized Parallel Mechanisms: Coupling,
-                Configurable, and Articulated Designs
-              </h3>
-              <p>
-                <strong>Zhihao Xia</strong>, Yongheng Xing, Chunxu Tian, and
-                Dan Zhang. <em>Mechanism and Machine Theory</em>.
-              </p>
-            </article>
-            <article class="compact-publication">
-              <p class="publication-year">2025</p>
-              <h3>
-                The Novel Synthesis Method of Decoupled Generalized Parallel
-                Mechanisms Based on Motion Transmission
-              </h3>
-              <p>
-                <strong>Zhihao Xia</strong>, Chunxu Tian, Yongheng Xing, Jie
-                Gu, Luquan Li, and Dan Zhang. <em>Mechanism and Machine
-                Theory</em>.
-              </p>
-            </article>
-          </div>
-
-          <a class="text-link side-link" href="publications.html">View full publication list</a>
+          <!-- BEGIN SCOPUS -->
+        <section class="scopus-panel" aria-labelledby="scopus-title">
+          <h2 id="scopus-title"><a href="https://www.scopus.com/authid/detail.uri?authorId=57384968200">Scopus</a></h2>
+          <dl class="academic-metrics"><div><dt>Documents</dt><dd>19</dd></div><div><dt>Citations</dt><dd>137</dd></div><div><dt>h-index</dt><dd>7</dd></div></dl>
+          <p class="metrics-date">As of Sep 6, 2026</p>
+        </section>
+        <!-- END SCOPUS -->
+          <div class="section-heading recent-heading"><h2>Recent Work</h2></div>
+          <!-- BEGIN RECENT PUBLICATIONS -->
+        <div class="compact-publication-list"><article class="compact-publication">
+            <p class="publication-meta">Accepted · 2026</p>
+            <h3><a href="publications.html#differentiable-kinematics">Differentiable Kinematics for Analysis and Gradient-Based Design of Generalized Parallel Mechanisms</a></h3>
+            <p><em>Mechanism and Machine Theory</em></p>
+          </article>
+        <article class="compact-publication">
+            <p class="publication-meta">Accepted · 2026</p>
+            <h3><a href="publications.html#physically-aware-design">Physically Aware Generative Design for Spatial Mechanism Synthesis: A Differentiable Diffusion-Refinement Framework</a></h3>
+            <p><em>IEEE Robotics and Automation Letters</em></p>
+          </article>
+        <article class="compact-publication">
+            <p class="publication-meta">Published · 2026</p>
+            <h3><a href="publications.html#mapping-mechanical-synthesis">Mapping mechanical synthesis to a trainable task: A neural network approach for generalized parallel mechanisms</a></h3>
+            <p><em>Mechanism and Machine Theory</em></p>
+          </article></div>
+        <!-- END RECENT PUBLICATIONS -->
+          <a class="text-link side-link" href="publications.html">All publications</a>
 
           <div class="service-panel" aria-labelledby="home-service-title">
             <p class="eyebrow">Academic Service</p>
@@ -313,7 +257,7 @@
     </main>
 
     <footer class="site-footer">
-      <p>© <span id="year"></span> Zhihao Xia. Last updated: September 2, 2026.</p>
+      <p>© <span id="year"></span> Zhihao Xia. Last updated: September 6, 2026.</p>
     </footer>
 
     <script src="script.js"></script>

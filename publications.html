@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="zh-CN">
+<html lang="en">
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -24,11 +24,11 @@
       </a>
 
       <nav class="site-nav" aria-label="Primary navigation">
-        <a href="index.html">HomePage(首页)</a>
-        <a href="research.html">Research(科研)</a>
-        <a href="publications.html" aria-current="page">Publications(论文集)</a>
-        <a href="gallery.html">Photo Gallery(图片库)</a>
-        <a href="about.html">About Me(关于我)</a>
+        <a href="index.html">Home</a>
+        <a href="research.html">Research</a>
+        <a href="publications.html" aria-current="page">Publications</a>
+        <a href="gallery.html">Gallery</a>
+        <a href="about.html">About</a>
       </nav>
     </header>
 
@@ -36,93 +36,208 @@
       <section class="page-hero section-band">
         <p class="eyebrow">Publications</p>
         <h1>Publications</h1>
-        <p class="hero-summary">
-          Selected journal papers, conference papers, preprints, and related
-          academic outputs. A complete and updated list is available on
-          <a href="https://scholar.google.com/citations?user=0CtcaZQAAAAJ&amp;hl=zh-CN">Google Scholar</a>.
-        </p>
+        <p class="hero-summary">Mechanism design, learning-based synthesis, and intelligent robotic systems.</p>
+        <div class="quick-links" aria-label="Academic profiles">
+          <a href="https://scholar.google.com/citations?user=0CtcaZQAAAAJ&amp;hl=zh-CN">Google Scholar</a>
+          <a href="https://www.scopus.com/authid/detail.uri?authorId=57384968200">Scopus</a>
+          <a href="assets/cv/Zhihao_Xia_CV.pdf">CV (PDF)</a>
+        </div>
       </section>
 
-      <section class="section">
-        <div class="section-heading">
-          <p class="eyebrow">Journal & Conference Papers</p>
-          <h2>Publication List</h2>
+      <section class="section publications-section" aria-label="Publication list">
+        <!-- BEGIN PUBLICATIONS -->
+        <form class="publication-filters" id="publication-filters" hidden role="search" aria-label="Search publications">
+          <fieldset class="publication-modes">
+            <legend class="sr-only">Publication type</legend>
+            <label><input type="radio" name="type" value="all" checked /><span>All</span></label>
+        <label><input type="radio" name="type" value="journal"  /><span>Journals</span></label>
+        <label><input type="radio" name="type" value="conference"  /><span>Conferences</span></label>
+        <label><input type="radio" name="type" value="preprint"  /><span>Preprints</span></label>
+          </fieldset>
+          <label class="publication-search"><span class="sr-only">Search titles, authors, or venues</span><input type="search" name="query" aria-label="Search titles, authors, or venues" placeholder="Search publications" /></label>
+        </form>
+        <div class="publication-overview"><p id="publication-count" role="status" aria-live="polite">24 works</p><p>19 published · 2 accepted · 3 preprints</p></div>
+        <div class="publication-layout">
+          <nav class="publication-years" aria-label="Publication years"><a href="#year-2026" data-year="2026">2026<span>7</span></a>
+        <a href="#year-2025" data-year="2025">2025<span>7</span></a>
+        <a href="#year-2024" data-year="2024">2024<span>4</span></a>
+        <a href="#year-2023" data-year="2023">2023<span>3</span></a>
+        <a href="#year-2022" data-year="2022">2022<span>3</span></a></nav>
+          <div class="publication-results">
+            <section class="publication-year-group" id="year-2026" data-year="2026" aria-labelledby="heading-2026"><h2 id="heading-2026">2026</h2><article class="publication-record" id="differentiable-kinematics" data-kind="journal" data-status="accepted">
+          <div class="publication-meta"><span>Journal</span><span class="publication-status">Accepted Sep 2, 2026</span></div>
+          <h3>Differentiable Kinematics for Analysis and Gradient-Based Design of Generalized Parallel Mechanisms</h3>
+
+          <p class="publication-venue"><em>Mechanism and Machine Theory</em>.</p>
+
+        </article>
+        <article class="publication-record" id="physically-aware-design" data-kind="journal" data-status="accepted">
+          <div class="publication-meta"><span>Journal</span><span class="publication-status">Accepted Aug 28, 2026</span></div>
+          <h3>Physically Aware Generative Design for Spatial Mechanism Synthesis: A Differentiable Diffusion-Refinement Framework</h3>
+
+          <p class="publication-venue"><em>IEEE Robotics and Automation Letters</em>.</p>
+
+        </article>
+        <article class="publication-record" id="reconfiguration-complete" data-kind="preprint" data-status="preprint">
+          <div class="publication-meta"><span>Preprint</span></div>
+          <h3>Reconfiguration-Complete Motion Primitives with Constructive Planning for Deformable Planar Modular Robots</h3>
+          <p class="publication-authors">Jie Gu, Tingting Wang, Hongrun Gao, Yirun Sun, <strong>Zhihao Xia</strong>, Chunxu Tian, and Dan Zhang.</p>
+          <p class="publication-venue"><em>arXiv</em>, arXiv:2608.17324.</p>
+          <div class="inline-links"><a href="https://arxiv.org/abs/2608.17324">arXiv</a></div>
+        </article>
+        <article class="publication-record" id="self-reconfiguration" data-kind="journal" data-status="published">
+          <div class="publication-meta"><span>Journal</span></div>
+          <h3>Self-Reconfiguration Planning for Deformable Quadrilateral Modular Robots</h3>
+          <p class="publication-authors">Jie Gu, Hongrun Gao, <strong>Zhihao Xia</strong>, Yirun Sun, Chunxu Tian, and Dan Zhang.</p>
+          <p class="publication-venue"><em>IEEE Robotics and Automation Letters</em>, 11(6):7300-7307.</p>
+          <div class="inline-links"><a href="https://doi.org/10.1109/lra.2026.3685902">Paper / DOI</a>
+        <a href="https://arxiv.org/abs/2601.19496">arXiv</a></div>
+        </article>
+        <article class="publication-record" id="mapping-mechanical-synthesis" data-kind="journal" data-status="published">
+          <div class="publication-meta"><span>Journal</span></div>
+          <h3>Mapping mechanical synthesis to a trainable task: A neural network approach for generalized parallel mechanisms</h3>
+          <p class="publication-authors"><strong>Zhihao Xia</strong>, Xinhua Lao, Chunxu Tian, and Dan Zhang.</p>
+          <p class="publication-venue"><em>Mechanism and Machine Theory</em>, 219:106337.</p>
+          <div class="inline-links"><a href="https://doi.org/10.1016/j.mechmachtheory.2025.106337">Paper / DOI</a></div>
+        </article>
+        <article class="publication-record" id="dexterous-manipulation" data-kind="preprint" data-status="preprint">
+          <div class="publication-meta"><span>Preprint</span></div>
+          <h3>Towards Dexterous Embodied Manipulation via Deep Multi-Sensory Fusion and Sparse Expert Scaling</h3>
+          <p class="publication-authors">Yirui Sun, Guangyu Zhuge, Keliang Liu, Jie Gu, <strong>Zhihao Xia</strong>, Qionglin Ren, Chunxu Tian, and Zhongxue Gan.</p>
+          <p class="publication-venue"><em>arXiv</em>, arXiv:2602.19764.</p>
+          <div class="inline-links"><a href="https://arxiv.org/abs/2602.19764">arXiv</a></div>
+        </article>
+        <article class="publication-record" id="rhomorph" data-kind="preprint" data-status="preprint">
+          <div class="publication-meta"><span>Preprint</span></div>
+          <h3>RhoMorph: Rhombus-Shaped Deformable Modular Robots for Stable, Medium-Independent Reconfiguration Motion</h3>
+          <p class="publication-authors">Jie Gu, Yirui Sun, <strong>Zhihao Xia</strong>, Tin Lun Lam, Chunxu Tian, and Dan Zhang.</p>
+          <p class="publication-venue"><em>arXiv</em>, arXiv:2601.19529.</p>
+          <div class="inline-links"><a href="https://arxiv.org/abs/2601.19529">arXiv</a></div>
+        </article></section>
+        <section class="publication-year-group" id="year-2025" data-year="2025" aria-labelledby="heading-2025"><h2 id="heading-2025">2025</h2><article class="publication-record" id="pub-j-mechmachtheory-2025-106287" data-kind="journal" data-status="published">
+          <div class="publication-meta"><span>Journal</span></div>
+          <h3>Advances in generalized parallel mechanisms: Coupling, configurable, and articulated designs</h3>
+          <p class="publication-authors"><strong>Zhihao Xia</strong>, Yongheng Xing, Chunxu Tian, and Dan Zhang.</p>
+          <p class="publication-venue"><em>Mechanism and Machine Theory</em>, 218:106287.</p>
+          <div class="inline-links"><a href="https://doi.org/10.1016/j.mechmachtheory.2025.106287">Paper / DOI</a></div>
+        </article>
+        <article class="publication-record" id="pub-iros60139-2025-11246025" data-kind="conference" data-status="published">
+          <div class="publication-meta"><span>Conference</span></div>
+          <h3>MODUR: A Modular Dual-reconfigurable Robot</h3>
+          <p class="publication-authors">Jie Gu, Tin Lun Lam, Chunxu Tian, <strong>Zhihao Xia</strong>, Yongheng Xing, and Dan Zhang.</p>
+          <p class="publication-venue"><em>2025 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)</em>, pp. 10212-10219.</p>
+          <div class="inline-links"><a href="https://doi.org/10.1109/iros60139.2025.11246025">Paper / DOI</a>
+        <a href="https://arxiv.org/abs/2510.13356">arXiv</a></div>
+        </article>
+        <article class="publication-record" id="pub-j-mechmachtheory-2025-106019" data-kind="journal" data-status="published">
+          <div class="publication-meta"><span>Journal</span></div>
+          <h3>The novel synthesis method of decoupled generalized parallel mechanisms based on motion transmission</h3>
+          <p class="publication-authors"><strong>Zhihao Xia</strong>, Chunxu Tian, Yongheng Xing, Jie Gu, Luquan Li, and Dan Zhang.</p>
+          <p class="publication-venue"><em>Mechanism and Machine Theory</em>, 210:106019.</p>
+          <div class="inline-links"><a href="https://doi.org/10.1016/j.mechmachtheory.2025.106019">Paper / DOI</a></div>
+        </article>
+        <article class="publication-record" id="pub-j-mechmachtheory-2025-106011" data-kind="journal" data-status="published">
+          <div class="publication-meta"><span>Journal</span></div>
+          <h3>Type synthesis of a class of parallel RCM manipulators based on concentric spherical surfaces geometric model</h3>
+          <p class="publication-authors">Luquan Li, Chunxu Tian, <strong>Zhihao Xia</strong>, and Dan Zhang.</p>
+          <p class="publication-venue"><em>Mechanism and Machine Theory</em>, 209:106011.</p>
+          <div class="inline-links"><a href="https://doi.org/10.1016/j.mechmachtheory.2025.106011">Paper / DOI</a></div>
+        </article>
+        <article class="publication-record" id="pub-j-mechmachtheory-2025-106003" data-kind="journal" data-status="published">
+          <div class="publication-meta"><span>Journal</span></div>
+          <h3>The novel synthesis of generalized parallel manipulators with 8R Kirigami-inspired configurable platform</h3>
+          <p class="publication-authors">Yongheng Xing, Chunxu Tian, <strong>Zhihao Xia</strong>, Jie Gu, and Dan Zhang.</p>
+          <p class="publication-venue"><em>Mechanism and Machine Theory</em>, 209:106003.</p>
+          <div class="inline-links"><a href="https://doi.org/10.1016/j.mechmachtheory.2025.106003">Paper / DOI</a></div>
+        </article>
+        <article class="publication-record" id="pub-s026357472400225x" data-kind="journal" data-status="published">
+          <div class="publication-meta"><span>Journal</span></div>
+          <h3>Optimal design of a generalized single-loop parallel manipulator with RCM characteristic considering motion/force transmissibility</h3>
+          <p class="publication-authors">Luquan Li, Chunxu Tian, <strong>Zhihao Xia</strong>, and Dan Zhang.</p>
+          <p class="publication-venue"><em>Robotica</em>, 43(3):851-867.</p>
+          <div class="inline-links"><a href="https://doi.org/10.1017/s026357472400225x">Paper / DOI</a></div>
+        </article>
+        <article class="publication-record" id="pub-978-981-96-0798-3-27" data-kind="conference" data-status="published">
+          <div class="publication-meta"><span>Conference</span></div>
+          <h3>MOPARAS: A Modular Parallel Spherical Robot with Position-Adjustable Connectors</h3>
+          <p class="publication-authors">Jie Gu, Tin Lun Lam, Chunxu Tian, <strong>Zhihao Xia</strong>, and Dan Zhang.</p>
+          <p class="publication-venue"><em>International Conference on Intelligent Robotics and Applications (ICIRA 2024)</em>, pp. 363-376.</p>
+          <div class="inline-links"><a href="https://doi.org/10.1007/978-981-96-0798-3_27">Paper / DOI</a></div>
+        </article></section>
+        <section class="publication-year-group" id="year-2024" data-year="2024" aria-labelledby="heading-2024"><h2 id="heading-2024">2024</h2><article class="publication-record" id="pub-j-mechmachtheory-2024-105857" data-kind="journal" data-status="published">
+          <div class="publication-meta"><span>Journal</span></div>
+          <h3>The novel synthesis of mechanisms for continuous origami based on the topological graph theory</h3>
+          <p class="publication-authors"><strong>Zhihao Xia</strong>, Chunxu Tian, Luquan Li, and Dan Zhang.</p>
+          <p class="publication-venue"><em>Mechanism and Machine Theory</em>, 204:105857.</p>
+          <div class="inline-links"><a href="https://doi.org/10.1016/j.mechmachtheory.2024.105857">Paper / DOI</a></div>
+        </article>
+        <article class="publication-record" id="pub-j-mechmachtheory-2024-105748" data-kind="journal" data-status="published">
+          <div class="publication-meta"><span>Journal</span></div>
+          <h3>The novel synthesis of reconfigurable generalized parallel manipulators with kinematic redundancy</h3>
+          <p class="publication-authors">Chunxu Tian, <strong>Zhihao Xia</strong>, Luquan Li, and Dan Zhang.</p>
+          <p class="publication-venue"><em>Mechanism and Machine Theory</em>, 201:105748.</p>
+          <div class="inline-links"><a href="https://doi.org/10.1016/j.mechmachtheory.2024.105748">Paper / DOI</a></div>
+        </article>
+        <article class="publication-record" id="pub-j-mechmachtheory-2024-105724" data-kind="journal" data-status="published">
+          <div class="publication-meta"><span>Journal</span></div>
+          <h3>A virtual parallel model for the buffer landing of multi-legged landing gear</h3>
+          <p class="publication-authors">Jian Liu, Dan Zhang, Chunxu Tian, Weizhan Ma, and <strong>Zhihao Xia</strong>.</p>
+          <p class="publication-venue"><em>Mechanism and Machine Theory</em>, 200:105724.</p>
+          <div class="inline-links"><a href="https://doi.org/10.1016/j.mechmachtheory.2024.105724">Paper / DOI</a></div>
+        </article>
+        <article class="publication-record" id="pub-j-mechmachtheory-2023-105547" data-kind="journal" data-status="published">
+          <div class="publication-meta"><span>Journal</span></div>
+          <h3>The novel synthesis of origami-inspired mechanisms based on graph theory</h3>
+          <p class="publication-authors"><strong>Zhihao Xia</strong>, Chunxu Tian, Luquan Li, and Dan Zhang.</p>
+          <p class="publication-venue"><em>Mechanism and Machine Theory</em>, 192:105547.</p>
+          <div class="inline-links"><a href="https://doi.org/10.1016/j.mechmachtheory.2023.105547">Paper / DOI</a></div>
+        </article></section>
+        <section class="publication-year-group" id="year-2023" data-year="2023" aria-labelledby="heading-2023"><h2 id="heading-2023">2023</h2><article class="publication-record" id="pipeline-inspection" data-kind="journal" data-status="published">
+          <div class="publication-meta"><span>Journal</span></div>
+          <h3>Design and Prototype Validation of an Active Variable-Diameter Pipeline Inspection Robot</h3>
+          <p class="publication-authors">Weizhan Ma, Dan Zhang, Jian Liu, Chunxu Tian, and <strong>Zhihao Xia</strong>.</p>
+          <p class="publication-venue"><em>Journal of Fudan University (Natural Science)</em>, 62(5):627-636.</p>
+
+        </article>
+        <article class="publication-record" id="pub-978-3-031-45705-0-38" data-kind="conference" data-status="published">
+          <div class="publication-meta"><span>Conference</span></div>
+          <h3>A Novel Class of (3+2)-DOF Reconfigurable Generalized Parallel Mechanisms with Kinematic Redundancy</h3>
+          <p class="publication-authors">Chunxu Tian, Luquan Li, <strong>Zhihao Xia</strong>, and Dan Zhang.</p>
+          <p class="publication-venue"><em>IFToMM World Congress on Mechanism and Machine Science</em>, pp. 386-395.</p>
+          <div class="inline-links"><a href="https://doi.org/10.1007/978-3-031-45705-0_38">Paper / DOI</a></div>
+        </article>
+        <article class="publication-record" id="pub-978-981-99-6504-5-7" data-kind="conference" data-status="published">
+          <div class="publication-meta"><span>Conference</span></div>
+          <h3>Graph Synthesis of Generalized Parallel Mechanisms with Coupling Sub-chains</h3>
+          <p class="publication-authors">Chunxu Tian, Luquan Li, <strong>Zhihao Xia</strong>, and Dan Zhang.</p>
+          <p class="publication-venue"><em>International Conference on Intelligent Robotics and Applications (ICIRA 2023)</em>, pp. 76-87.</p>
+          <div class="inline-links"><a href="https://doi.org/10.1007/978-981-99-6504-5_7">Paper / DOI</a></div>
+        </article></section>
+        <section class="publication-year-group" id="year-2022" data-year="2022" aria-labelledby="heading-2022"><h2 id="heading-2022">2022</h2><article class="publication-record" id="pub-j-mechmachtheory-2022-105029" data-kind="journal" data-status="published">
+          <div class="publication-meta"><span>Journal</span></div>
+          <h3>A novel 6 DOFs generalized parallel manipulator design and analysis based on humanoid leg</h3>
+          <p class="publication-authors"><strong>Zhihao Xia</strong>, Dan Zhang, Yanyu Chen, Chunxu Tian, Jian Liu, and Chenwei Wu.</p>
+          <p class="publication-venue"><em>Mechanism and Machine Theory</em>, 176:105029.</p>
+          <div class="inline-links"><a href="https://doi.org/10.1016/j.mechmachtheory.2022.105029">Paper / DOI</a></div>
+        </article>
+        <article class="publication-record" id="pub-ijcnn55064-2022-9891879" data-kind="conference" data-status="published">
+          <div class="publication-meta"><span>Conference</span></div>
+          <h3>TSDet: End-to-End Method with Transformer for SAR Ship Detection</h3>
+          <p class="publication-authors">Yanyu Chen, <strong>Zhihao Xia</strong>, Jian Liu, and Chenwei Wu.</p>
+          <p class="publication-venue"><em>2022 International Joint Conference on Neural Networks (IJCNN)</em>, pp. 1-8.</p>
+          <div class="inline-links"><a href="https://doi.org/10.1109/ijcnn55064.2022.9891879">Paper / DOI</a></div>
+        </article>
+        <article class="publication-record" id="pub-j-mechmachtheory-2021-104692" data-kind="journal" data-status="published">
+          <div class="publication-meta"><span>Journal</span></div>
+          <h3>Design of a class of generalized parallel mechanisms for adaptive landing and aerial manipulation</h3>
+          <p class="publication-authors">Jian Liu, Dan Zhang, Yanyu Chen, <strong>Zhihao Xia</strong>, and Chenwei Wu.</p>
+          <p class="publication-venue"><em>Mechanism and Machine Theory</em>, 170:104692.</p>
+          <div class="inline-links"><a href="https://doi.org/10.1016/j.mechmachtheory.2021.104692">Paper / DOI</a></div>
+        </article></section>
+            <p class="publication-empty" id="publication-empty" hidden>No matching publications.</p>
+          </div>
         </div>
-        <div class="publication-list">
-          <article class="publication-item">
-            <p class="publication-year">2026</p>
-            <div>
-              <h3>Mapping Mechanical Synthesis to a Trainable Task: A Neural Network Approach for Generalized Parallel Mechanisms</h3>
-              <p><strong>Zhihao Xia</strong>, Xinhua Lao, Chunxu Tian, and Dan Zhang. <em>Mechanism and Machine Theory</em>, 219:106337.</p>
-              <div class="inline-links">
-                <a href="https://mp.weixin.qq.com/s/vEdvu4lonHM1J1p--TCXQQ?scene=1&amp;click_id=1">Fudan Feature</a>
-              </div>
-            </div>
-          </article>
-          <article class="publication-item">
-            <p class="publication-year">2026</p>
-            <div>
-              <h3>Self-Reconfiguration Planning for Deformable Quadrilateral Modular Robots</h3>
-              <p>Jie Gu, Hongrun Gao, <strong>Zhihao Xia</strong>, Yirun Sun, Chunxu Tian, and Dan Zhang. <em>arXiv preprint arXiv:2601.19496</em>.</p>
-            </div>
-          </article>
-          <article class="publication-item">
-            <p class="publication-year">2026</p>
-            <div>
-              <h3>RhoMorph: Rhombus-Shaped Deformable Modular Robots for Stable, Medium-Independent Reconfiguration Motion</h3>
-              <p>Jie Gu, Yirui Sun, <strong>Zhihao Xia</strong>, Tin Lun Lam, Chunxu Tian, and Dan Zhang. <em>arXiv preprint arXiv:2601.19529</em>.</p>
-            </div>
-          </article>
-          <article class="publication-item">
-            <p class="publication-year">2025</p>
-            <div>
-              <h3>Advances in Generalized Parallel Mechanisms: Coupling, Configurable, and Articulated Designs</h3>
-              <p><strong>Zhihao Xia</strong>, Yongheng Xing, Chunxu Tian, and Dan Zhang. <em>Mechanism and Machine Theory</em>, 218:106287.</p>
-            </div>
-          </article>
-          <article class="publication-item">
-            <p class="publication-year">2025</p>
-            <div>
-              <h3>The Novel Synthesis Method of Decoupled Generalized Parallel Mechanisms Based on Motion Transmission</h3>
-              <p><strong>Zhihao Xia</strong>, Chunxu Tian, Yongheng Xing, Jie Gu, Luquan Li, and Dan Zhang. <em>Mechanism and Machine Theory</em>, 210:106019.</p>
-            </div>
-          </article>
-          <article class="publication-item">
-            <p class="publication-year">2024</p>
-            <div>
-              <h3>The Novel Synthesis of Mechanisms for Continuous Origami Based on the Topological Graph Theory</h3>
-              <p><strong>Zhihao Xia</strong>, Chunxu Tian, Luquan Li, and Dan Zhang. <em>Mechanism and Machine Theory</em>, 204:105857.</p>
-            </div>
-          </article>
-          <article class="publication-item">
-            <p class="publication-year">2024</p>
-            <div>
-              <h3>The Novel Synthesis of Origami-Inspired Mechanisms Based on Graph Theory</h3>
-              <p><strong>Zhihao Xia</strong>, Chunxu Tian, Luquan Li, and Dan Zhang. <em>Mechanism and Machine Theory</em>, 192:105547.</p>
-            </div>
-          </article>
-          <article class="publication-item">
-            <p class="publication-year">2024</p>
-            <div>
-              <h3>The Novel Synthesis of Reconfigurable Generalized Parallel Manipulators with Kinematic Redundancy</h3>
-              <p>Chunxu Tian, <strong>Zhihao Xia</strong>, Luquan Li, and Dan Zhang. <em>Mechanism and Machine Theory</em>, 201:105748.</p>
-            </div>
-          </article>
-          <article class="publication-item">
-            <p class="publication-year">2022</p>
-            <div>
-              <h3>A Novel 6 DOFs Generalized Parallel Manipulator Design and Analysis Based on Humanoid Leg</h3>
-              <p><strong>Zhihao Xia</strong>, Dan Zhang, Yanyu Chen, Chunxu Tian, Jian Liu, and Chenwei Wu. <em>Mechanism and Machine Theory</em>, 176:105029.</p>
-            </div>
-          </article>
-          <article class="publication-item">
-            <p class="publication-year">2022</p>
-            <div>
-              <h3>TSDet: End-to-End Method with Transformer for SAR Ship Detection</h3>
-              <p>Yanyu Chen, <strong>Zhihao Xia</strong>, Jian Liu, and Chenwei Wu. <em>International Joint Conference on Neural Networks</em>, 1--8.</p>
-            </div>
-          </article>
-        </div>
+        <!-- END PUBLICATIONS -->
       </section>
 
       <section class="section">
@@ -141,7 +256,7 @@
     </main>
 
     <footer class="site-footer">
-      <p>© <span id="year"></span> Zhihao Xia. Built for GitHub Pages.</p>
+      <p>© <span id="year"></span> Zhihao Xia. Last updated: September 6, 2026.</p>
     </footer>
 
     <script src="script.js"></script>

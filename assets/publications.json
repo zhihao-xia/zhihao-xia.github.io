@@ -1,0 +1,466 @@
+{
+  "updated": "2026-09-06",
+  "scopus": {
+    "url": "https://www.scopus.com/authid/detail.uri?authorId=57384968200",
+    "documents": 19,
+    "citations": 137,
+    "hIndex": 7,
+    "asOf": "2026-09-06"
+  },
+  "papers": [
+    {
+      "id": "differentiable-kinematics",
+      "title": "Differentiable Kinematics for Analysis and Gradient-Based Design of Generalized Parallel Mechanisms",
+      "authors": [],
+      "year": 2026,
+      "date": "2026-09-02",
+      "kind": "journal",
+      "status": "accepted",
+      "venue": "Mechanism and Machine Theory"
+    },
+    {
+      "id": "physically-aware-design",
+      "title": "Physically Aware Generative Design for Spatial Mechanism Synthesis: A Differentiable Diffusion-Refinement Framework",
+      "authors": [],
+      "year": 2026,
+      "date": "2026-08-28",
+      "kind": "journal",
+      "status": "accepted",
+      "venue": "IEEE Robotics and Automation Letters"
+    },
+    {
+      "id": "reconfiguration-complete",
+      "title": "Reconfiguration-Complete Motion Primitives with Constructive Planning for Deformable Planar Modular Robots",
+      "authors": [
+        "Jie Gu",
+        "Tingting Wang",
+        "Hongrun Gao",
+        "Yirun Sun",
+        "Zhihao Xia",
+        "Chunxu Tian",
+        "Dan Zhang"
+      ],
+      "year": 2026,
+      "date": "2026-08-18",
+      "kind": "preprint",
+      "status": "preprint",
+      "venue": "arXiv",
+      "arxiv": "2608.17324"
+    },
+    {
+      "id": "self-reconfiguration",
+      "title": "Self-Reconfiguration Planning for Deformable Quadrilateral Modular Robots",
+      "authors": [
+        "Jie Gu",
+        "Hongrun Gao",
+        "Zhihao Xia",
+        "Yirun Sun",
+        "Chunxu Tian",
+        "Dan Zhang"
+      ],
+      "year": 2026,
+      "date": "2026-06",
+      "kind": "journal",
+      "status": "published",
+      "venue": "IEEE Robotics and Automation Letters",
+      "volume": "11",
+      "issue": "6",
+      "pages": "7300-7307",
+      "doi": "10.1109/lra.2026.3685902",
+      "arxiv": "2601.19496"
+    },
+    {
+      "id": "mapping-mechanical-synthesis",
+      "title": "Mapping mechanical synthesis to a trainable task: A neural network approach for generalized parallel mechanisms",
+      "authors": [
+        "Zhihao Xia",
+        "Xinhua Lao",
+        "Chunxu Tian",
+        "Dan Zhang"
+      ],
+      "year": 2026,
+      "date": "2026-03",
+      "kind": "journal",
+      "status": "published",
+      "venue": "Mechanism and Machine Theory",
+      "volume": "219",
+      "issue": "",
+      "pages": "106337",
+      "doi": "10.1016/j.mechmachtheory.2025.106337",
+      "image": "assets/research/learning-assisted-synthesis.jpg",
+      "imageAlt": "Neural-network formulation of generalized parallel mechanism synthesis"
+    },
+    {
+      "id": "dexterous-manipulation",
+      "title": "Towards Dexterous Embodied Manipulation via Deep Multi-Sensory Fusion and Sparse Expert Scaling",
+      "authors": [
+        "Yirui Sun",
+        "Guangyu Zhuge",
+        "Keliang Liu",
+        "Jie Gu",
+        "Zhihao Xia",
+        "Qionglin Ren",
+        "Chunxu Tian",
+        "Zhongxue Gan"
+      ],
+      "year": 2026,
+      "date": "2026-02-23",
+      "kind": "preprint",
+      "status": "preprint",
+      "venue": "arXiv",
+      "arxiv": "2602.19764"
+    },
+    {
+      "id": "rhomorph",
+      "title": "RhoMorph: Rhombus-Shaped Deformable Modular Robots for Stable, Medium-Independent Reconfiguration Motion",
+      "authors": [
+        "Jie Gu",
+        "Yirui Sun",
+        "Zhihao Xia",
+        "Tin Lun Lam",
+        "Chunxu Tian",
+        "Dan Zhang"
+      ],
+      "year": 2026,
+      "date": "2026-01-27",
+      "kind": "preprint",
+      "status": "preprint",
+      "venue": "arXiv",
+      "arxiv": "2601.19529"
+    },
+    {
+      "id": "pub-j-mechmachtheory-2025-106287",
+      "title": "Advances in generalized parallel mechanisms: Coupling, configurable, and articulated designs",
+      "authors": [
+        "Zhihao Xia",
+        "Yongheng Xing",
+        "Chunxu Tian",
+        "Dan Zhang"
+      ],
+      "year": 2025,
+      "date": "2025-12",
+      "kind": "journal",
+      "status": "published",
+      "venue": "Mechanism and Machine Theory",
+      "volume": "218",
+      "issue": "",
+      "pages": "106287",
+      "doi": "10.1016/j.mechmachtheory.2025.106287"
+    },
+    {
+      "id": "pub-iros60139-2025-11246025",
+      "title": "MODUR: A Modular Dual-reconfigurable Robot",
+      "authors": [
+        "Jie Gu",
+        "Tin Lun Lam",
+        "Chunxu Tian",
+        "Zhihao Xia",
+        "Yongheng Xing",
+        "Dan Zhang"
+      ],
+      "year": 2025,
+      "date": "2025-10-19",
+      "kind": "conference",
+      "status": "published",
+      "venue": "2025 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)",
+      "volume": "",
+      "issue": "",
+      "pages": "10212-10219",
+      "doi": "10.1109/iros60139.2025.11246025",
+      "arxiv": "2510.13356"
+    },
+    {
+      "id": "pub-j-mechmachtheory-2025-106019",
+      "title": "The novel synthesis method of decoupled generalized parallel mechanisms based on motion transmission",
+      "authors": [
+        "Zhihao Xia",
+        "Chunxu Tian",
+        "Yongheng Xing",
+        "Jie Gu",
+        "Luquan Li",
+        "Dan Zhang"
+      ],
+      "year": 2025,
+      "date": "2025-08",
+      "kind": "journal",
+      "status": "published",
+      "venue": "Mechanism and Machine Theory",
+      "volume": "210",
+      "issue": "",
+      "pages": "106019",
+      "doi": "10.1016/j.mechmachtheory.2025.106019"
+    },
+    {
+      "id": "pub-j-mechmachtheory-2025-106011",
+      "title": "Type synthesis of a class of parallel RCM manipulators based on concentric spherical surfaces geometric model",
+      "authors": [
+        "Luquan Li",
+        "Chunxu Tian",
+        "Zhihao Xia",
+        "Dan Zhang"
+      ],
+      "year": 2025,
+      "date": "2025-07",
+      "kind": "journal",
+      "status": "published",
+      "venue": "Mechanism and Machine Theory",
+      "volume": "209",
+      "issue": "",
+      "pages": "106011",
+      "doi": "10.1016/j.mechmachtheory.2025.106011"
+    },
+    {
+      "id": "pub-j-mechmachtheory-2025-106003",
+      "title": "The novel synthesis of generalized parallel manipulators with 8R Kirigami-inspired configurable platform",
+      "authors": [
+        "Yongheng Xing",
+        "Chunxu Tian",
+        "Zhihao Xia",
+        "Jie Gu",
+        "Dan Zhang"
+      ],
+      "year": 2025,
+      "date": "2025-07",
+      "kind": "journal",
+      "status": "published",
+      "venue": "Mechanism and Machine Theory",
+      "volume": "209",
+      "issue": "",
+      "pages": "106003",
+      "doi": "10.1016/j.mechmachtheory.2025.106003"
+    },
+    {
+      "id": "pub-s026357472400225x",
+      "title": "Optimal design of a generalized single-loop parallel manipulator with RCM characteristic considering motion/force transmissibility",
+      "authors": [
+        "Luquan Li",
+        "Chunxu Tian",
+        "Zhihao Xia",
+        "Dan Zhang"
+      ],
+      "year": 2025,
+      "date": "2025-03",
+      "kind": "journal",
+      "status": "published",
+      "venue": "Robotica",
+      "volume": "43",
+      "issue": "3",
+      "pages": "851-867",
+      "doi": "10.1017/s026357472400225x"
+    },
+    {
+      "id": "pub-978-981-96-0798-3-27",
+      "title": "MOPARAS: A Modular Parallel Spherical Robot with Position-Adjustable Connectors",
+      "authors": [
+        "Jie Gu",
+        "Tin Lun Lam",
+        "Chunxu Tian",
+        "Zhihao Xia",
+        "Dan Zhang"
+      ],
+      "year": 2025,
+      "date": "2025",
+      "kind": "conference",
+      "status": "published",
+      "venue": "International Conference on Intelligent Robotics and Applications (ICIRA 2024)",
+      "volume": "",
+      "issue": "",
+      "pages": "363-376",
+      "doi": "10.1007/978-981-96-0798-3_27"
+    },
+    {
+      "id": "pub-j-mechmachtheory-2024-105857",
+      "title": "The novel synthesis of mechanisms for continuous origami based on the topological graph theory",
+      "authors": [
+        "Zhihao Xia",
+        "Chunxu Tian",
+        "Luquan Li",
+        "Dan Zhang"
+      ],
+      "year": 2024,
+      "date": "2024-12",
+      "kind": "journal",
+      "status": "published",
+      "venue": "Mechanism and Machine Theory",
+      "volume": "204",
+      "issue": "",
+      "pages": "105857",
+      "doi": "10.1016/j.mechmachtheory.2024.105857"
+    },
+    {
+      "id": "pub-j-mechmachtheory-2024-105748",
+      "title": "The novel synthesis of reconfigurable generalized parallel manipulators with kinematic redundancy",
+      "authors": [
+        "Chunxu Tian",
+        "Zhihao Xia",
+        "Luquan Li",
+        "Dan Zhang"
+      ],
+      "year": 2024,
+      "date": "2024-10",
+      "kind": "journal",
+      "status": "published",
+      "venue": "Mechanism and Machine Theory",
+      "volume": "201",
+      "issue": "",
+      "pages": "105748",
+      "doi": "10.1016/j.mechmachtheory.2024.105748"
+    },
+    {
+      "id": "pub-j-mechmachtheory-2024-105724",
+      "title": "A virtual parallel model for the buffer landing of multi-legged landing gear",
+      "authors": [
+        "Jian Liu",
+        "Dan Zhang",
+        "Chunxu Tian",
+        "Weizhan Ma",
+        "Zhihao Xia"
+      ],
+      "year": 2024,
+      "date": "2024-09",
+      "kind": "journal",
+      "status": "published",
+      "venue": "Mechanism and Machine Theory",
+      "volume": "200",
+      "issue": "",
+      "pages": "105724",
+      "doi": "10.1016/j.mechmachtheory.2024.105724"
+    },
+    {
+      "id": "pub-j-mechmachtheory-2023-105547",
+      "title": "The novel synthesis of origami-inspired mechanisms based on graph theory",
+      "authors": [
+        "Zhihao Xia",
+        "Chunxu Tian",
+        "Luquan Li",
+        "Dan Zhang"
+      ],
+      "year": 2024,
+      "date": "2024-02",
+      "kind": "journal",
+      "status": "published",
+      "venue": "Mechanism and Machine Theory",
+      "volume": "192",
+      "issue": "",
+      "pages": "105547",
+      "doi": "10.1016/j.mechmachtheory.2023.105547"
+    },
+    {
+      "id": "pipeline-inspection",
+      "title": "Design and Prototype Validation of an Active Variable-Diameter Pipeline Inspection Robot",
+      "authors": [
+        "Weizhan Ma",
+        "Dan Zhang",
+        "Jian Liu",
+        "Chunxu Tian",
+        "Zhihao Xia"
+      ],
+      "year": 2023,
+      "date": "2023-10",
+      "kind": "journal",
+      "status": "published",
+      "venue": "Journal of Fudan University (Natural Science)",
+      "volume": "62",
+      "issue": "5",
+      "pages": "627-636"
+    },
+    {
+      "id": "pub-978-3-031-45705-0-38",
+      "title": "A Novel Class of (3+2)-DOF Reconfigurable Generalized Parallel Mechanisms with Kinematic Redundancy",
+      "authors": [
+        "Chunxu Tian",
+        "Luquan Li",
+        "Zhihao Xia",
+        "Dan Zhang"
+      ],
+      "year": 2023,
+      "date": "2023",
+      "kind": "conference",
+      "status": "published",
+      "venue": "IFToMM World Congress on Mechanism and Machine Science",
+      "volume": "",
+      "issue": "",
+      "pages": "386-395",
+      "doi": "10.1007/978-3-031-45705-0_38"
+    },
+    {
+      "id": "pub-978-981-99-6504-5-7",
+      "title": "Graph Synthesis of Generalized Parallel Mechanisms with Coupling Sub-chains",
+      "authors": [
+        "Chunxu Tian",
+        "Luquan Li",
+        "Zhihao Xia",
+        "Dan Zhang"
+      ],
+      "year": 2023,
+      "date": "2023",
+      "kind": "conference",
+      "status": "published",
+      "venue": "International Conference on Intelligent Robotics and Applications (ICIRA 2023)",
+      "volume": "",
+      "issue": "",
+      "pages": "76-87",
+      "doi": "10.1007/978-981-99-6504-5_7"
+    },
+    {
+      "id": "pub-j-mechmachtheory-2022-105029",
+      "title": "A novel 6 DOFs generalized parallel manipulator design and analysis based on humanoid leg",
+      "authors": [
+        "Zhihao Xia",
+        "Dan Zhang",
+        "Yanyu Chen",
+        "Chunxu Tian",
+        "Jian Liu",
+        "Chenwei Wu"
+      ],
+      "year": 2022,
+      "date": "2022-10",
+      "kind": "journal",
+      "status": "published",
+      "venue": "Mechanism and Machine Theory",
+      "volume": "176",
+      "issue": "",
+      "pages": "105029",
+      "doi": "10.1016/j.mechmachtheory.2022.105029"
+    },
+    {
+      "id": "pub-ijcnn55064-2022-9891879",
+      "title": "TSDet: End-to-End Method with Transformer for SAR Ship Detection",
+      "authors": [
+        "Yanyu Chen",
+        "Zhihao Xia",
+        "Jian Liu",
+        "Chenwei Wu"
+      ],
+      "year": 2022,
+      "date": "2022-07-18",
+      "kind": "conference",
+      "status": "published",
+      "venue": "2022 International Joint Conference on Neural Networks (IJCNN)",
+      "volume": "",
+      "issue": "",
+      "pages": "1-8",
+      "doi": "10.1109/ijcnn55064.2022.9891879"
+    },
+    {
+      "id": "pub-j-mechmachtheory-2021-104692",
+      "title": "Design of a class of generalized parallel mechanisms for adaptive landing and aerial manipulation",
+      "authors": [
+        "Jian Liu",
+        "Dan Zhang",
+        "Yanyu Chen",
+        "Zhihao Xia",
+        "Chenwei Wu"
+      ],
+      "year": 2022,
+      "date": "2022-04",
+      "kind": "journal",
+      "status": "published",
+      "venue": "Mechanism and Machine Theory",
+      "volume": "170",
+      "issue": "",
+      "pages": "104692",
+      "doi": "10.1016/j.mechmachtheory.2021.104692"
+    }
+  ]
+}
