@@ -21,8 +21,8 @@ const venue = (paper) => {
   return `<em>${escape(paper.venue)}</em>${volume}${pages}${paper.kind === "preprint" ? `, arXiv:${escape(paper.arxiv)}` : ""}.`;
 };
 const links = (paper) => [
-  paper.doi ? `<a href="https://doi.org/${escape(paper.doi)}">Paper / DOI</a>` : "",
-  paper.arxiv ? `<a href="https://arxiv.org/abs/${escape(paper.arxiv)}">arXiv</a>` : "",
+  paper.doi ? `<a href="https://doi.org/${escape(paper.doi)}">${paper.arxiv && paper.status === "published" ? "Published version" : "Paper / DOI"}</a>` : "",
+  paper.arxiv ? `<a href="https://arxiv.org/abs/${escape(paper.arxiv)}">arXiv preprint</a>` : "",
 ].filter(Boolean).join("\n");
 
 const ids = new Set();
