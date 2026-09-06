@@ -1,12 +1,5 @@
 {
   "updated": "2026-09-06",
-  "scopus": {
-    "url": "https://www.scopus.com/authid/detail.uri?authorId=57384968200",
-    "documents": 19,
-    "citations": 137,
-    "hIndex": 7,
-    "asOf": "2026-09-06"
-  },
   "papers": [
     {
       "id": "differentiable-kinematics",

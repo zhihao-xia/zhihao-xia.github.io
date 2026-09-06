@@ -67,12 +67,6 @@ const recent = `<div class="compact-publication-list">${["differentiable-kinemat
   </article>`;
 }).join("\n")}</div>`;
 
-const scopus = `<section class="scopus-panel" aria-labelledby="scopus-title">
-  <h2 id="scopus-title"><a href="${escape(data.scopus.url)}">Scopus</a></h2>
-  <dl class="academic-metrics"><div><dt>Documents</dt><dd>${data.scopus.documents}</dd></div><div><dt>Citations</dt><dd>${data.scopus.citations}</dd></div><div><dt>h-index</dt><dd>${data.scopus.hIndex}</dd></div></dl>
-  <p class="metrics-date">As of ${dateLabel(data.scopus.asOf)}</p>
-</section>`;
-
 // Static HTML keeps the complete bibliography available without JavaScript.
 async function updateRegion(file, name, content) {
   const path = new URL(file, root);
@@ -87,5 +81,4 @@ async function updateRegion(file, name, content) {
 
 await updateRegion("publications.html", "PUBLICATIONS", publications);
 await updateRegion("index.html", "RECENT PUBLICATIONS", recent);
-await updateRegion("index.html", "SCOPUS", scopus);
 console.log(`Rendered ${papers.length} publications across ${years.length} years.`);

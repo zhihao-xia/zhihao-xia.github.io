@@ -1012,48 +1012,8 @@ h3 {
   margin-top: 16px;
 }
 
-.scopus-panel {
-  padding-bottom: 24px;
-  border-bottom: 1px solid var(--line);
-}
-
-.scopus-panel h2 a {
-  color: var(--accent);
-}
-
-.academic-metrics {
-  display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
-  gap: 12px;
-  margin: 16px 0 8px;
-}
-
-.academic-metrics div {
-  display: flex;
-  flex-direction: column-reverse;
-}
-
-.academic-metrics dt {
-  font-size: 0.78rem;
-  color: var(--muted);
-}
-
-.academic-metrics dd {
-  margin: 0;
-  font-size: 1.7rem;
-  line-height: 1.4;
-  font-weight: 600;
-  font-variant-numeric: tabular-nums;
-}
-
-.metrics-date {
-  margin: 0;
-  color: var(--muted);
-  font-size: 0.74rem;
-}
-
 .recent-heading {
-  margin-top: 26px;
+  margin-top: 0;
   margin-bottom: 20px;
 }
 
