@@ -1,6 +1,16 @@
 {
-  "updated": "2026-09-06",
+  "updated": "2026-09-09",
   "papers": [
+    {
+      "id": "kinematic-neural-networks",
+      "title": "Kinematic Neural Networks: A New Paradigm for Embodied Mechanical Intelligence",
+      "authors": [],
+      "year": 2026,
+      "date": "2026-09-09",
+      "kind": "journal",
+      "status": "accepted",
+      "venue": "IEEE Robotics and Automation Letters"
+    },
     {
       "id": "differentiable-kinematics",
       "title": "Differentiable Kinematics for Analysis and Gradient-Based Design of Generalized Parallel Mechanisms",

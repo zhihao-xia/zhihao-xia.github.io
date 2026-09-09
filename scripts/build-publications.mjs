@@ -58,7 +58,7 @@ const publications = `<form class="publication-filters" id="publication-filters"
   </div>
 </div>`;
 
-const recent = `<div class="compact-publication-list">${["differentiable-kinematics", "physically-aware-design", "mapping-mechanical-synthesis"].map((id) => {
+const recent = `<div class="compact-publication-list">${["kinematic-neural-networks", "differentiable-kinematics", "physically-aware-design"].map((id) => {
   const paper = papers.find((p) => p.id === id);
   return `<article class="compact-publication">
     <p class="publication-meta">${paper.status === "accepted" ? "Accepted" : "Published"} · ${paper.year}</p>
