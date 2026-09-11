@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-09",
+  "updated": "2026-09-11",
   "papers": [
     {
       "id": "kinematic-neural-networks",
@@ -13,13 +13,22 @@
     },
     {
       "id": "differentiable-kinematics",
-      "title": "Differentiable Kinematics for Analysis and Gradient-Based Design of Generalized Parallel Mechanisms",
-      "authors": [],
+      "title": "Differentiable kinematics for analysis and gradient-based design of generalized parallel mechanisms",
+      "authors": [
+        "Zhihao Xia",
+        "James W. Zhang",
+        "Yongheng Xing",
+        "Chunxu Tian",
+        "Dan Zhang"
+      ],
       "year": 2026,
-      "date": "2026-09-02",
+      "date": "2026-09-09",
       "kind": "journal",
-      "status": "accepted",
-      "venue": "Mechanism and Machine Theory"
+      "status": "published",
+      "venue": "Mechanism and Machine Theory",
+      "volume": "230",
+      "pages": "106604",
+      "doi": "10.1016/j.mechmachtheory.2026.106604"
     },
     {
       "id": "physically-aware-design",
