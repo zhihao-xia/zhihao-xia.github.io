@@ -1,15 +1,24 @@
 {
-  "updated": "2026-09-11",
+  "updated": "2026-10-02",
   "papers": [
     {
       "id": "kinematic-neural-networks",
       "title": "Kinematic Neural Networks: A New Paradigm for Embodied Mechanical Intelligence",
-      "authors": [],
+      "authors": [
+        "Zhihao Xia",
+        "Xun Liu",
+        "Tingting Wang",
+        "Xinhua Lao",
+        "Chunxu Tian"
+      ],
       "year": 2026,
       "date": "2026-09-09",
       "kind": "journal",
-      "status": "accepted",
-      "venue": "IEEE Robotics and Automation Letters"
+      "status": "published",
+      "earlyAccess": true,
+      "venue": "IEEE Robotics and Automation Letters",
+      "pages": "1-8",
+      "doi": "10.1109/LRA.2026.3739653"
     },
     {
       "id": "differentiable-kinematics",
@@ -33,12 +42,22 @@
     {
       "id": "physically-aware-design",
       "title": "Physically Aware Generative Design for Spatial Mechanism Synthesis: A Differentiable Diffusion-Refinement Framework",
-      "authors": [],
+      "authors": [
+        "Zhihao Xia",
+        "Tingting Wang",
+        "Guihua Lang",
+        "Xun Liu",
+        "Chunxu Tian"
+      ],
       "year": 2026,
       "date": "2026-08-28",
       "kind": "journal",
-      "status": "accepted",
-      "venue": "IEEE Robotics and Automation Letters"
+      "status": "published",
+      "venue": "IEEE Robotics and Automation Letters",
+      "volume": "11",
+      "issue": "11",
+      "pages": "12743-12750",
+      "doi": "10.1109/LRA.2026.3734873"
     },
     {
       "id": "reconfiguration-complete",

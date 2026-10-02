@@ -35,7 +35,7 @@ for (const paper of papers) {
 }
 
 const record = (paper) => `<article class="publication-record" id="${escape(paper.id)}" data-kind="${paper.kind}" data-status="${paper.status}">
-  <div class="publication-meta"><span>${paper.kind === "journal" ? "Journal" : paper.kind === "conference" ? "Conference" : "Preprint"}</span>${paper.status === "accepted" ? `<span class="publication-status">Accepted ${dateLabel(paper.date)}</span>` : ""}</div>
+  <div class="publication-meta"><span>${paper.kind === "journal" ? "Journal" : paper.kind === "conference" ? "Conference" : "Preprint"}</span>${paper.status === "accepted" ? `<span class="publication-status">Accepted ${dateLabel(paper.date)}</span>` : paper.earlyAccess ? `<span class="publication-status">Early Access</span>` : ""}</div>
   <h3>${escape(paper.title)}</h3>
   ${paper.authors.length ? `<p class="publication-authors">${authors(paper)}.</p>` : ""}
   <p class="publication-venue">${venue(paper)}</p>
@@ -61,7 +61,7 @@ const publications = `<form class="publication-filters" id="publication-filters"
 const recent = `<div class="compact-publication-list">${["kinematic-neural-networks", "differentiable-kinematics", "physically-aware-design"].map((id) => {
   const paper = papers.find((p) => p.id === id);
   return `<article class="compact-publication">
-    <p class="publication-meta">${paper.status === "accepted" ? "Accepted" : "Published"} · ${paper.year}</p>
+    <p class="publication-meta">${paper.status === "accepted" ? "Accepted" : paper.earlyAccess ? "Early Access" : "Published"} · ${paper.year}</p>
     <h3><a href="publications.html#${paper.id}">${escape(paper.title)}</a></h3>
     <p><em>${escape(paper.venue)}</em></p>
   </article>`;
